@@ -15,6 +15,10 @@
     background-color:#3f3f3f;
 }
 
+.site-head p{
+  float: right;
+  margin-right: 50px;
+}
 .site-head h2{
     text-align: center;
 }
