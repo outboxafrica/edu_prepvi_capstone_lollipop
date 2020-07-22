@@ -1,0 +1,62 @@
+*{ box-sizing: border-box;}
+
+input[type=text] , input[type=password] {
+    width: 100%;
+    display: inline-block;
+    border: black;
+    background: rgb(233, 224, 224);
+    padding: 15px;
+    margin: 5px 0 22px 0;
+}
+
+input[type=text]: focus , input[type=password]:focus {
+    background-color: #dddddd
+    outline: none;
+}
+
+hr{
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+button{
+    background-color: rgb(78, 72, 72);
+    color: rgb(233, 224, 224);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+button:hover{
+    opacity: 1;
+}
+.cancelbtn, .signupbtn{
+    float: left;
+    width: 50%;
+}
+.container{
+    padding: 16px;
+    width: 600px;
+    
+    
+}
+.signup{
+    background-color: grey;
+    background-image: url("dine.jpg");
+    /*filter: blur(8px);
+    -webkit-filter: blur(8px);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fixit::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 300px) {
+    .cancelbtn, signupbtn {
+        width: 100%;
+    }
+}
