@@ -5,9 +5,11 @@
     padding: 0px 50px 0px 50px;
     color: white;
   }
-
+.baga{
+  display: none;
+}
 .site-head{
- width: 100%;
+ width:91%;
   top: 0px;
   position: fixed;
     background-color:#3f3f3f;
@@ -15,8 +17,11 @@
 
 .site-head h2{
     text-align: center;
-
 }
+   
+    
+
+
 .container{
     padding-top: 50px;
    background-color: #454545;
@@ -33,15 +38,7 @@
 
 .navbar li{
     display: inline-block;
-    padding: 20px 50px 20px 50px;
-}
-
-
-.menuOverview{
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 80px;
-    margin-right: 80px;
+    padding: 20px 30px 20px 30px;
 }
 
 
@@ -112,12 +109,6 @@ img {vertical-align: middle;} */
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 600px) {
-  
-
-}
-
 
 
 /* 
@@ -146,13 +137,37 @@ img {vertical-align: middle;} */
   }
   
   /* Responsive columns */
-  @media only screen and (max-width: 600px) {
+  @media screen and (max-width: 650px) {
    .menuOverview .column {
       width: 100%;
       display: block;
       margin-bottom: 20px;
     }
 
+    .baga {
+      display: inline-block;
+      font-size: 35px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: grey;
+      background-color: rgb(225, 231, 229);
+      cursor: pointer;
+      width: 30px;
+      margin-right: 1px;
+    }
+
+
+    .navbar li {
+      display: none;
+    }
+   
+.menuOverview{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
     .text {font-size: 11px}
 
@@ -191,8 +206,18 @@ padding: 10px;
   }
 
   .menuOverview .card{
-      height: 280px;
+      height: 175px;
   }
+
+
+.menuOverview{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
   .specials{
       margin-left: 10px;
       margin-right: 10px;
