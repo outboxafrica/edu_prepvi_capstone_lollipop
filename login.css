@@ -1,0 +1,56 @@
+.loginpage{
+    border: 3px solid black;
+    width: 800px;
+    text-align: center;
+    background-color: rgb(44, 42, 42);
+}
+/*inputs design*/
+input {
+width: 250px;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid black;
+box-sizing: border-box;
+border-radius: 5px;
+}
+/*button style*/
+.login{
+    background-color: rgb(95, 92, 92);
+    color: black;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    float: inline-start;
+}
+button:hover{
+    opacity: 0.8;
+}
+.cancelbtn{
+    width: auto;
+    padding: 10px 18px;
+    background-color: rgb(95, 92, 92);
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    text-align: left;
+    
+}
+.profilepic{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+.container{
+    text-align: center;
+    padding: 16px;
+} 
+    
+}
+.pwd{
+    float: right;
+    padding: 15px;
+}
