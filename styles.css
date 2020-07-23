@@ -1,0 +1,167 @@
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #292929;
+    padding: 0px 50px 0px 50px;
+    color: white;
+  }
+
+
+  .container{
+    padding-top: 50px;
+   background-color: #454545;
+    padding-bottom: 50px;
+    margin-top: 160px;
+}
+
+.site-head{
+    width:91%;
+     top: 0px;
+     position: fixed;
+       background-color:#3f3f3f;
+   }
+   
+   .site-head p{
+     float: right;
+     margin-right: 50px;
+   }
+   .site-head h2{
+       text-align: center;
+       /* margin-left: 155px; */
+   }
+      
+
+   .navbar{
+    text-align: center ;
+    height: 61px;
+}
+
+.baga{
+    display: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 20px 30px 20px 30px;
+}
+
+/* food menu */
+.menu  ul{
+  text-align: center;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 50px;
+  background-color:#3f3f3f;
+}
+
+
+
+@media screen and (max-width:650px){
+    .baga {
+        display: inline-block;
+        font-size: 35px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: grey;
+        background-color: rgb(225, 231, 229);
+        cursor: pointer;
+        width: 30px;
+        margin-right: 1px;
+      }
+
+
+.menu li{
+  display: block;
+  padding: 50px;
+  background-color:#3f3f3f;
+}
+
+      body {
+        color: white;
+          padding: 0px 2px 0px 2px;
+        
+        }
+.site-head{
+  width: 95%;
+}
+
+    .text {font-size: 11px}
+    
+    .navbar li {
+        display: none;
+      }
+
+
+      .specials .column{
+        display: block;
+      padding: 10px;
+         
+      }
+      
+      .specials .card{
+         
+         padding: 0px 90px 0px 90px;
+         
+      }
+      
+      .specials .row{
+         margin-right: 100px;
+         
+      }
+       
+}   
+
+
+
+
+ 
+ /* Style the counter cards */
+ .card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   padding: 1px;
+   text-align: center;
+   background-color: #f1f1f1;
+   border-radius: 10%;
+ }
+
+
+ .specials{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 80px;
+
+}
+
+/* 
+.specials .column{
+width: 20%;
+
+} */
+
+.column {
+  /* float: left; */
+  margin: auto;
+  display: inline-block;
+  width: 15%;
+  padding: 0 10px;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* footer */
+.footer{
+  text-align: center;
+  bottom: 0;
+}
