@@ -6,11 +6,16 @@
     color: white;
   }
 
-
+  .img{
+    width: 50px;
+  }
+ .navbar li a{
+  text-decoration: none;
+  color: white;
+}
   .container{
-    padding-top: 50px;
+    padding: 50px 20px 50px 20px;
    background-color: #454545;
-    padding-bottom: 50px;
     margin-top: 160px;
 }
 
@@ -52,7 +57,7 @@
 
 .menu li{
   display: inline-block;
-  padding: 50px;
+  padding: 45px;
   background-color:#3f3f3f;
 }
 
