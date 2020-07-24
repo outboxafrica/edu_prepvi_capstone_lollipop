@@ -126,14 +126,18 @@ input[type=text], select, textarea {
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color:#454545;
+  color: white;
 }
 textarea{
     height: 150px;
+    background-color:#454545;
+    color: white;
 }
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #3f3f3f;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -143,7 +147,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color:gray;
 }
 
 /* Add a background color and some padding around the form */
