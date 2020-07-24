@@ -14,14 +14,18 @@ body {
     padding: 50px 20px 50px 20px;
    background-color: #454545;
     margin-top: 160px;
+    background-image: url(./images/break1.jpg);
 }
 
+
+ 
 
 .site-head{
     width:91%;
      top: 0px;
      position: fixed;
        background-color:#3f3f3f;
+       
    }
    
    .site-head p{
@@ -30,7 +34,7 @@ body {
    }
    .site-head h2{
        text-align: center;
-       /* margin-left: 155px; */
+       /* margin-left: 156px; */
    }
       
 
@@ -52,6 +56,17 @@ body {
 
 
 @media only screen and (max-width:650px){
+  .img{
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    opacity: 0.1;
+    height: 900px;
+  }
+
+
     .baga {
         display: inline-block;
         font-size: 35px;
@@ -71,6 +86,7 @@ body {
           padding: 0px 2px 0px 2px;
         
         }
+        
 .site-head{
   width: 95%;
 }
