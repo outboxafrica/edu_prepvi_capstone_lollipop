@@ -31,6 +31,7 @@ body {
 
 p a {
   color: #fff;
+  text-decoration: none;
 }
 
 .content h3 {
@@ -47,7 +48,7 @@ p a {
 
 .site-head h2 {
   text-align: center;
-
+margin-left: 115px;
   color: white;
 }
 
