@@ -24,13 +24,11 @@ body {
   top: 0px;
   position: fixed;
   background-color: #3f3f3f;
-  /* background-image: url(./images/food6.jpg); */
+
   z-index: 1;
 }
 
-/* .site-head {
-  
-} */
+
 p a {
   color: #fff;
 }
@@ -38,7 +36,9 @@ p a {
 .content h3 {
   text-align: center;
 }
-
+.columns img{
+  width: 100%;
+}
 .site-head p {
   float: right;
   margin-right: 50px;
