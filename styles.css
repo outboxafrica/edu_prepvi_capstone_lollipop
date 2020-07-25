@@ -21,3 +21,9 @@ button{
 img{
     width: 5%;
 }
+
+@media only screen and (max-width:650px){
+    img{
+        width: 30%;
+    }
+}
