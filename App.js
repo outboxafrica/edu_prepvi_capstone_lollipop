@@ -1,12 +1,15 @@
-// breakfast
+
 // var h = document.getElementsByClassName("breakfast");
 // for(var i=0;i<h.length;i++){
 //     h[i].style.display="none";
 // }
 
+
+
+
+// breakfast
 var h = document.querySelector(".breakfast");
 h.style.display="none";
-
 
 document.querySelector(".br").onclick = function(){
     // var f = document.querySelector(".breakfast");
@@ -105,6 +108,8 @@ document.querySelector(".su").onclick = function(){
 
 
 
+
+
 // f.style.display = "none";
 
 // function myFunction() {
@@ -115,4 +120,3 @@ document.querySelector(".su").onclick = function(){
 //       f.style.display = "none";
 //     }
 //   }
-

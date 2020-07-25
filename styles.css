@@ -4,7 +4,7 @@
     background-color: #292929;
     padding: 0px 50px 0px 50px;
     color: white;
-    display: ;
+    /* display: ; */
   }
 
   .img{
@@ -15,16 +15,26 @@
   color: white;
 }
   .container{
-    padding: 50px 20px 50px 20px;
-   background-color: #454545;
+    padding: 20px 20px 20px 10px;
+   /* background-color: #454545; */
     margin-top: 160px;
+    background-image: url(./images/drinks3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-
+.content{
+  background-color: #292929;
+  background-size: 100% 100%;
+  padding: 20px 20px 20px 10px;
+  opacity: 0.85;
+  
+}
 .site-head{
     width:91%;
      top: 0px;
      position: fixed;
        background-color:#3f3f3f;
+       z-index: 1;
    }
    
    .site-head p{
@@ -33,7 +43,7 @@
    }
    .site-head h2{
        text-align: center;
-       /* margin-left: 155px; */
+       margin-left: 130px;
    }
       
 
@@ -112,7 +122,7 @@ button{
       
       .specials .card{
          
-         padding: 0px 90px 0px 90px;
+         padding: 0px 90px 0px 50px;
          
       }
       
@@ -123,10 +133,6 @@ button{
        
 }   
 
-
-
-
- 
  /* Style the counter cards */
  .card {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -141,16 +147,11 @@ button{
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 
 }
 
-/* 
-.specials .column{
-width: 20%;
-
-} */
 
 .column {
   /* float: left; */
