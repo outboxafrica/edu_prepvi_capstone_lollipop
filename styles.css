@@ -1,0 +1,17 @@
+body{
+    background-image: url(./images/food6.jpg);
+    /* background-repeat: no-repeat;
+    background-size: 100%; */
+}
+
+.container{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.637);
+    margin: 100px 200px 0px 200px;
+    padding: 100px ;
+}
+
+button{
+    font-size: 30px;
+    background-color: lightgray;
+}
