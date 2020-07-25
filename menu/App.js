@@ -7,6 +7,7 @@
 
 
 
+
 // breakfast
 var h = document.querySelector(".breakfast");
 h.style.display="none";
