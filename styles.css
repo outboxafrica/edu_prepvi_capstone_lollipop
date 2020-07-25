@@ -69,12 +69,14 @@
 .menu li{
   display: inline-block;
   padding: 40px;
-  background-color:#3f3f3f;
+  background-color:#140e0e;
+  
 }
 
 button{
-  background-color:#3f3f3f;
-  border: #3f3f3f;
+  background-color:#140e0e;
+  border: #140e0e;
+  color: white;
 }
 
 @media screen and (max-width:650px){
