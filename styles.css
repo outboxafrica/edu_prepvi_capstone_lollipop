@@ -4,6 +4,7 @@
     background-color: #292929;
     padding: 0px 50px 0px 50px;
     color: white;
+    display: ;
   }
 
   .img{
@@ -57,11 +58,14 @@
 
 .menu li{
   display: inline-block;
-  padding: 45px;
+  padding: 40px;
   background-color:#3f3f3f;
 }
 
-
+button{
+  background-color:#3f3f3f;
+  border: #3f3f3f;
+}
 
 @media screen and (max-width:650px){
     .baga {
