@@ -23,6 +23,8 @@
         <li><a href="">About Us</a></li>
         <li><a href="">Contact Us</a></li>
         <li><a href="">Menus</a></li>
+       <li> <button  data-target="#cart">Cart (<span class="total-count"></span>)</button><button>Clear Cart</button></li>
+       <li><input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Search animals.."> </li>
         <a class="baga"><i class="fa fa-bars"></i> </a>
       </ul>
 
@@ -376,7 +378,7 @@
           <tr>
             <td>THAI CHICKEN & NOODLE SOUP</td>
             <td>15000</td>
-            <td><button class="btn">order</button></td>
+            <td><button class="btn" data-name="banana">order</button></td>
           </tr>
          
         </table>
@@ -407,6 +409,10 @@
       </div>
     </div>
   </div>
+
+
+
+
 
   <div class="footer">
     <p>&copyAllrightsreservedLollifudhub2020</p>

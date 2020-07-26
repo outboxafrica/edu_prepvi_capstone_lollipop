@@ -203,3 +203,55 @@ button{
   }
 }
 
+/* 
+
+body {
+  padding-top: 80px;
+} */
+/* 
+.show-cart li {
+  display: flex;
+} */
+/* .card {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+} */
+/* 
+#cart{
+  display: none;
+} */
+
+li button{
+  background-color: #3f3f3f;
+}
+
+
+#searchbar{ 
+  padding:5px; 
+  border-radius: 10px; 
+  background-image: url(./images/icons8-search-64.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: right;
+} 
+
+input[type=text] { 
+   width: 90%; 
+   -webkit-transition: width 0.15s ease-in-out; 
+   transition: width 0.15s ease-in-out; 
+} 
+
+/* When the input field gets focus, 
+     change its width to 100% */
+input[type=text]:focus { 
+  width: 70%; 
+} 
+
+#list{ 
+ font-size:  1.5em; 
+ margin-left: 90px; 
+} 
