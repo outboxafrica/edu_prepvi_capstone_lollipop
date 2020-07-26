@@ -16,6 +16,7 @@ document.querySelector(".br").onclick = function(){
     // var f = document.querySelector(".breakfast");
     if (h.style.display === "none") {
               h.style.display = "block";
+              
             } else {
               h.style.display = "none";
             }
