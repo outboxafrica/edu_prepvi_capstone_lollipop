@@ -7,6 +7,11 @@
     /* display: ; */
   }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
   .img{
     width: 50px;
   }
@@ -197,3 +202,4 @@ button{
     max-width: 100%;
   }
 }
+
