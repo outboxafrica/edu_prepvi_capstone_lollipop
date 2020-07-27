@@ -1,0 +1,186 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #292929;
+  padding: 0px 50px 0px 50px;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  padding: 50px 20px 50px 20px;
+  background-color: #454545;
+  margin-top: 160px;
+  background-image: url(./images/break1.jpg);
+}
+
+
+
+
+.site-head {
+  width: 91%;
+  top: 0px;
+  position: fixed;
+  background-color: #3f3f3f;
+
+}
+
+.site-head p {
+  float: right;
+  margin-right: 50px;
+}
+
+.site-head h2 {
+  text-align: center;
+  margin-left: 122px;
+}
+
+
+.navbar {
+  text-align: center;
+  height: 61px;
+
+}
+
+.baga {
+  display: none;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 20px 30px 20px 30px;
+
+}
+
+
+@media only screen and (max-width:650px) {
+  .img {
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    opacity: 0.1;
+    height: 900px;
+  }
+
+
+  .baga {
+    display: inline-block;
+    font-size: 35px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: grey;
+    background-color: rgb(225, 231, 229);
+    cursor: pointer;
+    width: 30px;
+    margin-right: 1px;
+  }
+
+
+  body {
+    color: white;
+    padding: 0px 2px 0px 2px;
+
+  }
+
+  .site-head {
+    width: 95%;
+  }
+
+  .text {
+    font-size: 11px
+  }
+
+  .navbar li {
+    display: none;
+  }
+
+
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    /* Full width */
+
+  }
+
+  .contact {
+    margin-top: 200px;
+    width: 100%;
+  }
+
+}
+
+
+.contact {
+
+  width: 50%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: #454545;
+  color: white;
+}
+
+textarea {
+  height: 150px;
+  background-color: #454545;
+  color: white;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #3f3f3f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: gray;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+
+  padding: 20px;
+}
+
+.address {
+  float: right;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  bottom: 0;
+}

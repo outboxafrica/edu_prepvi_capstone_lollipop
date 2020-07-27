@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+.about-section{
+    text-align: center;
+    padding: 50px;
+    background-image: url("foodimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+   /* filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-color: rgb(0,0,0);*/
+    color: white;
+    margin-top:120px ;
+}
+.column{
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 8px;
+}
+.container{
+    padding: 0 16px;
+}
+.container::after, .row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.title{
+    color: grey;
+}
+.button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #555555;
+}
+@media screen and (max-width: 650px){
+    .column{
+        width: 100%;
+        display: block;
+    }
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.site-head{
+    width:100%;
+     top: 0px;
+     position: fixed;
+       background-color:#3f3f3f;
+   }
+   
+   .site-head p{
+     float: right;
+     margin-right: 50px;
+   }
+   .site-head h2{
+       text-align: center;
+       /* margin-left: 155px; */
+   }
+      
+   .navbar{
+    text-align: center ;
+    height: 61px;
+    
+}
+.baga{
+    display: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 20px 30px 20px 30px;
+    
+}
+@media only screen and (max-width:650px){
+    .baga {
+        display: inline-block;
+        font-size: 35px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: grey;
+        background-color: rgb(225, 231, 229);
+        cursor: pointer;
+        width: 30px;
+        margin-right: 1px;
+      }
+.site-head{
+  width: 95%;
+}
+  .navbar li {
+        display: none;
+      }
+}

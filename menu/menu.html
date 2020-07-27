@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+  <title>Menus</title>
+</head>
+
+<body>
+  <div class="site-head">
+    <p>logout</p>
+    <h2>LolliFudHub <br>Delivery</h2>
+
+
+    <div class="navbar">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">Menus</a></li>
+        <li> <button data-target="#cart">Cart (<span class="total-count"></span>)</button><button>Clear Cart</button>
+        </li>
+        <li><input id="searchbar" onkeyup="search_menu()" type="text" name="search" placeholder="Search menus..."> </li>
+        <a class="baga"><i class="fa fa-bars"></i> </a>
+      </ul>
+
+    </div>
+
+
+  </div>
+  <div class="container">
+    <div class="content">
+      <h2>Our Menu & specials</h2>
+      <div class="menu" id="men">
+        <ul>
+          <li> <button class="br"><a id="myHeader1-2" href="javascript:showonlyonev2('newboxes1-2');"><img class="img"
+                  src="./images/food (1).png"><br>BreakFast</a></button></li>
+          <li><button class="sn"><a id="myHeader2-2" href="javascript:showonlyonev2('newboxes2-2');"><img class="img"
+                  src="./images/food.png"><br>Snacks</a></button></li>
+          <li><button class="lh"><a id="myHeader3-2" href="javascript:showonlyonev2('newboxes3-2');"><img class="img"
+                  src="./images/lunch.png"><br>Lunch</a></button></li>
+          <li><button class="ds"><a id="myHeader4-2" href="javascript:showonlyonev2('newboxes4-2');"><img class="img"
+                  src="./images/cake-pop.png"><br>Dessert</a></button></li>
+          <li><button class="dr"><a id="myHeader5-2" href="javascript:showonlyonev2('newboxes5-2');"><img class="img"
+                  src="./images/soda.png"><br>Drinks</a></button></li>
+          <li><button class="din"><a id="myHeader6-2" href="javascript:showonlyonev2('newboxes6-2');"><img class="img"
+                  src="./images/dinner.png"><br>Dinner</a></button></li>
+          <li><button class="su"><a id="myHeader7-2" href="javascript:showonlyonev2('newboxes7-2');"><img class="img"
+                  src="./images/eat.png"><br>Soups</a></button></li>
+        </ul>
+
+      </div>
+      <div class="newboxes-2" id="newboxes1-2">
+        <p>Enjoy your breakfast</p>
+        <table>
+          <tr>
+            <td>ROLEX WRAP COMBO</td>
+            <td>2000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>CHICKEN & EGG WRAP COMBO</td>
+            <td>3000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>LOADED CHAPATI COMBO</td>
+            <td>2500</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>OMELETTE COMBO</td>
+            <td>1500</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+
+        </table>
+
+        <div class="specials">
+
+          <div class="rows">
+            <div class="columns">
+              <img src="./images/bakery2.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/soup2.webp">
+
+            </div>
+            <div class="columns">
+              <img src="./images/food4.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/drinks1.jpg">
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="newboxes-2" id="newboxes2-2">
+        <p>Enjoy your snacks</p>
+        <table>
+          <tr>
+            <td>ROASTED PLANTAIN</td>
+            <td>2000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>CHICKEN PIE</td>
+            <td>3000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>SAMOSAS</td>
+            <td>2500</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>ONION RINGS</td>
+            <td>1500</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+
+        </table>
+
+
+
+        <div class="specials">
+
+          <div class="rows">
+            <div class="columns">
+              <img src="./images/bakery2.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/soup2.webp">
+
+            </div>
+            <div class="columns">
+              <img src="./images/food4.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/drinks1.jpg">
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="newboxes-2" id="newboxes3-2">
+        <p>Enjoy your lunch</p>
+        <table>
+          <tr>
+            <td>KIDDIE SANDWICHES</td>
+            <td>20000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>GRILLED TILAPIA</td>
+            <td>30000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>BEEF STEAK</td>
+            <td>25000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>MUSHROOM BEEF STEAK</td>
+            <td>15000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+
+        </table>
+
+
+        <div class="specials">
+
+          <div class="rows">
+            <div class="columns">
+              <img src="./images/bakery2.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/soup2.webp">
+
+            </div>
+            <div class="columns">
+              <img src="./images/food4.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/drinks1.jpg">
+
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="newboxes-2" id="newboxes4-2">
+        <p>Enjoy your dessert</p>
+        <table>
+          <tr>
+            <td>FRUITFUL DELIGHT</td>
+            <td>20000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>PREMIUM ICE CREAM</td>
+            <td>30000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>A LA MODE</td>
+            <td>25000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>CAKE SLICES</td>
+            <td>15000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+
+        </table>
+
+
+        <div class="specials">
+
+          <div class="rows">
+            <div class="columns">
+              <img src="./images/bakery2.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/soup2.webp">
+
+            </div>
+            <div class="columns">
+              <img src="./images/food4.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/drinks1.jpg">
+
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="newboxes-2" id="newboxes5-2">
+        <p>Enjoy your drinks</p>
+        <table>
+          <tr>
+            <td>CREAMY MILKSHAKES</td>
+            <td>20000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>ICED LATTE</td>
+            <td>30000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>CAPPUCCINO</td>
+            <td>25000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>COFFEE</td>
+            <td>15000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+
+        </table>
+
+
+
+        <div class="specials">
+
+          <div class="rows">
+            <div class="columns">
+              <img src="./images/bakery2.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/soup2.webp">
+
+            </div>
+            <div class="columns">
+              <img src="./images/food4.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/drinks1.jpg">
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="newboxes-2" id="newboxes6-2">
+        <p>Enjoy your dinner</p>
+        <table>
+          <tr>
+            <td>CHICKEN TENDERS PLATTER</td>
+            <td>20000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>CARIBBEAN JERK CHICKEN</td>
+            <td>30000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>CHICKEN WING MEAL</td>
+            <td>25000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>JUICY GRILLED CHICKEN BREAST</td>
+            <td>15000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+
+        </table>
+
+
+
+        <div class="specials">
+
+          <div class="rows">
+            <div class="columns">
+              <img src="./images/bakery2.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/soup2.webp">
+
+            </div>
+            <div class="columns">
+              <img src="./images/food4.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/drinks1.jpg">
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="newboxes-2" id="newboxes7-2">
+        <p>Enjoy your soup</p>
+        <table>
+          <tr>
+            <td>CLEAR CHICKEN & VEG.SOUP</td>
+            <td>20000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>LENTIL SOUP (SATURDAY ONLY)</td>
+            <td>30000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>CREAM OF MUSHROOM SOUP</td>
+            <td>25000</td>
+            <td><button class="btn">order</button></td>
+          </tr>
+          <tr>
+            <td>THAI CHICKEN & NOODLE SOUP</td>
+            <td>15000</td>
+            <td><button class="btn" data-name="banana">order</button></td>
+          </tr>
+
+        </table>
+
+        <div class="specials">
+
+          <div class="rows">
+            <div class="columns">
+              <img src="./images/bakery2.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/soup2.webp">
+
+            </div>
+            <div class="columns">
+              <img src="./images/food4.jpg">
+
+            </div>
+            <div class="columns">
+              <img src="./images/drinks1.jpg">
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- <a class="up "href="#">^</a> -->
+
+
+
+  <div class="footer">
+    <p>&copyAllrightsreservedLollifudhub2020</p>
+  </div>
+  <script src="./App.js"></script>
+</body>
+
+</html>
