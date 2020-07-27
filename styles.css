@@ -1,16 +1,16 @@
-body{
+body {
     background-image: url(./images/food6.jpg);
-   color: white;
+    color: white;
 }
 
-.container{
+.container {
     text-align: center;
     background-color: rgba(29, 28, 28, 0.637);
     margin: 100px 0px 0px 0px;
-    padding: 100px ;
+    padding: 100px;
 }
 
-button{
+button {
     font-size: 30px;
     background-color: rgba(128, 128, 128, 0.616);
     padding: 15px;
@@ -18,12 +18,12 @@ button{
     color: white;
 }
 
-img{
+img {
     width: 5%;
 }
 
-@media only screen and (max-width:650px){
-    img{
+@media only screen and (max-width:650px) {
+    img {
         width: 30%;
     }
 }
