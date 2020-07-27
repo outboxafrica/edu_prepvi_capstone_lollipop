@@ -15,8 +15,13 @@ body {
   background-color: #454545;
   margin-top: 160px;
   background-image: url(./images/break1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
-
+p a{
+  color: white;
+  text-decoration: none;
+}
 
 
 
