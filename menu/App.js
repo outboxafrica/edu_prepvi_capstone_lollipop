@@ -1,3 +1,37 @@
+// toggole menus
+function showonlyonev2(thechosenone) {
+  var newboxes = document.getElementsByTagName("div");
+  for (var x = 0; x < newboxes.length; x++) {
+    name = newboxes[x].getAttribute("class");
+    if (name == 'newboxes-2') {
+      if (newboxes[x].id == thechosenone) {
+        if (newboxes[x].style.display == 'block') {
+          newboxes[x].style.display = 'none';
+        } else {
+          newboxes[x].style.display = 'block';
+        }
+      } else {
+        newboxes[x].style.display = 'none';
+      }
+    }
+  }
+}
+
+
+// search bar
+function search_menu() {
+  let input = document.getElementById('searchbar').value
+  input = input.toLowerCase();
+  let x = document.getElementsByTagName('tr');
+
+  for (i = 0; i < x.length; i++) {
+    if (!x[i].innerHTML.toLowerCase().includes(input)) {
+      x[i].style.display = "none";
+    } else {
+      x[i].style.display = "list-item";
+    }
+  }
+}
 
 // var h = document.getElementsByClassName("breakfast");
 // for(var i=0;i<h.length;i++){
@@ -5,125 +39,107 @@
 // }
 
 
-
-
-
 // breakfast
-var h = document.querySelector(".breakfast");
-h.style.display="none";
+// var h = document.querySelector(".breakfast");
+// h.style.display="none";
 
-document.querySelector(".br").onclick = function(){
-    // var f = document.querySelector(".breakfast");
-    if (h.style.display === "none") {
-              h.style.display = "block";
-              
-            } else {
-              h.style.display = "none";
-            }
-};
+// document.querySelector(".br").onclick = function(){
+//     // var f = document.querySelector(".breakfast");
+//     if (h.style.display === "none") {
+//               h.style.display = "block";
 
-// snacks
-var s = document.querySelector(".snacks");
-s.style.display="none";
+//             } else {
+//               h.style.display = "none";
+//             }
+// };
 
-document.querySelector(".sn").onclick = function(){
-    // var x = document.querySelector(".snacks");
-    if (s.style.display === "none") {
-              s.style.display = "block";
-            } else {
-              s.style.display = "none";
-            }
-};
+// // snacks
+// var s = document.querySelector(".snacks");
+// s.style.display="none";
 
-
-
-// lunch
-var l = document.querySelector(".lunch");
-l.style.display="none";
-
-document.querySelector(".lh").onclick = function(){
-    // var x = document.querySelector(".snacks");
-    if (l.style.display === "none") {
-              l.style.display = "block";
-            } else {
-              l.style.display = "none";
-            }
-};
+// document.querySelector(".sn").onclick = function(){
+//     // var x = document.querySelector(".snacks");
+//     if (s.style.display === "none") {
+//               s.style.display = "block";
+//             } else {
+//               s.style.display = "none";
+//             }
+// };
 
 
 
-// dessert
-var d = document.querySelector(".dessert");
-d.style.display="none";
+// // lunch
+// var l = document.querySelector(".lunch");
+// l.style.display="none";
 
-document.querySelector(".ds").onclick = function(){
-    // var x = document.querySelector(".snacks");
-    if (d.style.display === "none") {
-              d.style.display = "block";
-            } else {
-              d.style.display = "none";
-            }
-};
-
-
-// drinks
-var y = document.querySelector(".drinks");
-y.style.display="none";
-
-document.querySelector(".dr").onclick = function(){
-    // var x = document.querySelector(".snacks");
-    if (y.style.display === "none") {
-              y.style.display = "block";
-            } else {
-              y.style.display = "none";
-            }
-};
-
-
-//dinner
-var p = document.querySelector(".dinner");
-p.style.display="none";
-
-document.querySelector(".din").onclick = function(){
-    // var x = document.querySelector(".snacks");
-    if (p.style.display === "none") {
-              p.style.display = "block";
-            } else {
-              p.style.display = "none";
-            }
-};
-
-
-// soups
-var q = document.querySelector(".soup");
-q.style.display="none";
-
-document.querySelector(".su").onclick = function(){
-    // var x = document.querySelector(".snacks");
-    if (q.style.display === "none") {
-              q.style.display = "block";
-            } else {
-              q.style.display = "none";
-            }
-};
+// document.querySelector(".lh").onclick = function(){
+//     // var x = document.querySelector(".snacks");
+//     if (l.style.display === "none") {
+//               l.style.display = "block";
+//             } else {
+//               l.style.display = "none";
+//             }
+// };
 
 
 
-// search bar
-function search_animal() { 
-    let input = document.getElementById('searchbar').value 
-    input=input.toLowerCase(); 
-    let x = document.getElementsByTagName('tr'); 
-      
-    for (i = 0; i < x.length; i++) {  
-        if (!x[i].innerHTML.toLowerCase().includes(input)) { 
-            x[i].style.display="none"; 
-        } 
-        else { 
-            x[i].style.display="list-item";                  
-        } 
-    } 
-} 
+// // dessert
+// var d = document.querySelector(".dessert");
+// d.style.display="none";
+
+// document.querySelector(".ds").onclick = function(){
+//     // var x = document.querySelector(".snacks");
+//     if (d.style.display === "none") {
+//               d.style.display = "block";
+//             } else {
+//               d.style.display = "none";
+//             }
+// };
+
+
+// // drinks
+// var y = document.querySelector(".drinks");
+// y.style.display="none";
+
+// document.querySelector(".dr").onclick = function(){
+//     // var x = document.querySelector(".snacks");
+//     if (y.style.display === "none") {
+//               y.style.display = "block";
+//             } else {
+//               y.style.display = "none";
+//             }
+// };
+
+
+// //dinner
+// var p = document.querySelector(".dinner");
+// p.style.display="none";
+
+// document.querySelector(".din").onclick = function(){
+//     // var x = document.querySelector(".snacks");
+//     if (p.style.display === "none") {
+//               p.style.display = "block";
+//             } else {
+//               p.style.display = "none";
+//             }
+// };
+
+
+// // soups
+// var q = document.querySelector(".soup");
+// q.style.display="none";
+
+// document.querySelector(".su").onclick = function(){
+//     // var x = document.querySelector(".snacks");
+//     if (q.style.display === "none") {
+//               q.style.display = "block";
+//             } else {
+//               q.style.display = "none";
+//             }
+// };
+
+
+
 
 
 
@@ -148,19 +164,19 @@ function search_animal() {
 //   // Private methods and propeties
 //   // =============================
 //   cart = [];
-  
+
 //   // Constructor
 //   function Item(name, price, count) {
 //     this.name = name;
 //     this.price = price;
 //     this.count = count;
 //   }
-  
+
 //   // Save cart
 //   function saveCart() {
 //     sessionStorage.setItem('shoppingCart', JSON.stringify(cart));
 //   }
-  
+
 //     // Load cart
 //   function loadCart() {
 //     cart = JSON.parse(sessionStorage.getItem('shoppingCart'));
@@ -168,13 +184,13 @@ function search_animal() {
 //   if (sessionStorage.getItem("shoppingCart") != null) {
 //     loadCart();
 //   }
-  
+
 
 //   // =============================
 //   // Public methods and propeties
 //   // =============================
 //   var obj = {};
-  
+
 //   // Add to cart
 //   obj.addItemToCart = function(name, price, count) {
 //     for(var item in cart) {

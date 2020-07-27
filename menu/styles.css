@@ -1,12 +1,12 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #292929;
+  padding: 0px 50px 0px 50px;
+  color: white;
 
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #292929;
-    padding: 0px 50px 0px 50px;
-    color: white;
-    /* display: ; */
-  }
+}
 
+/* 
 .up{
   position:fixed;
 	width:60px;
@@ -19,143 +19,154 @@
 	text-align:center;
   box-shadow: 1px 1px 3px #999;
   font-size: 35px;
-}
+} */
 
 
-a{
+a {
   color: white;
   text-decoration: none;
 }
 
-  .img{
-    width: 50px;
-  }
- .navbar li a{
+.img {
+  width: 50px;
+}
+
+.navbar li a {
   text-decoration: none;
   color: white;
 }
-  .container{
-    padding: 20px 20px 10px 20px;
-   /* background-color: #454545; */
-    margin-top: 160px;
-    background-image: url(./images/drinks3.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+
+.container {
+  padding: 20px 20px 10px 20px;
+  margin-top: 160px;
+  background-image: url(./images/drinks3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-.content{
+
+.content {
   background-color: #292929;
   background-size: 100% 100%;
   padding: 20px 20px 5px 20px;
   opacity: 0.85;
-  
-}
-.site-head{
-    width:91%;
-     top: 0px;
-     position: fixed;
-       background-color:#3f3f3f;
-       z-index: 1;
-   }
-   
-   .site-head p{
-     float: right;
-     margin-right: 50px;
-   }
-   .site-head h2{
-       text-align: center;
-       margin-left: 130px;
-   }
-      
 
-   .navbar{
-    text-align: center ;
-    height: 61px;
 }
 
-.baga{
-    display: none;
+.site-head {
+  width: 91%;
+  top: 0px;
+  position: fixed;
+  background-color: #3f3f3f;
+  z-index: 1;
 }
 
-.navbar li{
-    display: inline-block;
-    padding: 20px 30px 20px 30px;
+.site-head p {
+  float: right;
+  margin-right: 50px;
+}
+
+.site-head h2 {
+  text-align: center;
+  margin-left: 130px;
+}
+
+
+.navbar {
+  text-align: center;
+  height: 61px;
+}
+
+.baga {
+  display: none;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 20px 30px 20px 30px;
 }
 
 /* food menu */
-.menu  ul{
+.menu ul {
   text-align: center;
 }
 
-.menu li{
+.menu li {
   display: inline-block;
   padding: 40px;
-  background-color:#140e0e;
-  
+  background-color: #140e0e;
+
 }
 
-button{
-  background-color:#140e0e;
+button {
+  background-color: #140e0e;
   border: #140e0e;
   color: white;
 }
 
-@media screen and (max-width:650px){
-    .baga {
-        display: inline-block;
-        font-size: 35px;
-        position: absolute;
-        right: 0;
-        top: 0;
-        color: grey;
-        background-color: rgb(225, 231, 229);
-        cursor: pointer;
-        width: 30px;
-        margin-right: 1px;
-      }
-
-
-.menu li{
-  display: block;
-  padding: 50px;
-  background-color:#3f3f3f;
+button:hover {
+  cursor: pointer;
 }
 
-      body {
-        color: white;
-          padding: 0px 2px 0px 2px;
-        
-        }
-.site-head{
-  width: 95%;
+@media screen and (max-width:650px) {
+  .baga {
+    display: inline-block;
+    font-size: 35px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: grey;
+    background-color: rgb(225, 231, 229);
+    cursor: pointer;
+    width: 30px;
+    margin-right: 1px;
+  }
+
+
+  .menu li {
+    display: block;
+    padding: 50px;
+    background-color: #3f3f3f;
+  }
+
+  body {
+    color: white;
+    padding: 0px 2px 0px 2px;
+
+  }
+
+  .site-head {
+    width: 95%;
+  }
+
+  .text {
+    font-size: 11px
+  }
+
+  .navbar li {
+    display: none;
+  }
+
+
+  .specials .column {
+    display: block;
+    padding: 10px;
+
+  }
+
+  .specials .card {
+
+    padding: 0px 90px 0px 50px;
+
+  }
+
+  .specials .row {
+    margin-right: 100px;
+
+  }
+
 }
 
-    .text {font-size: 11px}
-    
-    .navbar li {
-        display: none;
-      }
-
-
-      .specials .column{
-        display: block;
-      padding: 10px;
-         
-      }
-      
-      .specials .card{
-         
-         padding: 0px 90px 0px 50px;
-         
-      }
-      
-      .specials .row{
-         margin-right: 100px;
-         
-      }
-       
-}  
-
- .specials{
+.specials {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
@@ -167,7 +178,7 @@ button{
 
 
 /* footer */
-.footer{
+.footer {
   text-align: center;
   bottom: 0;
   position: relative;
@@ -177,18 +188,15 @@ button{
 
 .rows {
   display: -ms-flexbox;
-  /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap;
-  /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+
 .columns {
   -ms-flex: 25%;
-  /* IE10 */
   flex: 25%;
   max-width: 20%;
   padding: 0 4px;
@@ -200,7 +208,6 @@ button{
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .columns {
     -ms-flex: 50%;
@@ -209,7 +216,7 @@ button{
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .columns {
     -ms-flex: 100%;
@@ -218,55 +225,27 @@ button{
   }
 }
 
-/* 
 
-body {
-  padding-top: 80px;
-} */
-/* 
-.show-cart li {
-  display: flex;
-} */
-/* .card {
-  margin-bottom: 20px;
-}
-.card-img-top {
-  width: 200px;
-  height: 200px;
-  align-self: center;
-} */
-/* 
-#cart{
-  display: none;
-} */
-/* 
-li button{
-  background-color: #3f3f3f;
-} */
-
-
-#searchbar{ 
-  padding:5px; 
-  border-radius: 10px; 
+#searchbar {
+  padding: 5px;
+  border-radius: 10px;
   background-image: url(./images/icons8-search-64.png);
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: right;
-} 
+}
 
-input[type=text] { 
-   width: 90%; 
-   -webkit-transition: width 0.15s ease-in-out; 
-   transition: width 0.15s ease-in-out; 
-} 
+input[type=text] {
+  width: 90%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
 
-/* When the input field gets focus, 
-     change its width to 100% */
-input[type=text]:focus { 
-  width: 70%; 
-} 
+input[type=text]:focus {
+  width: 70%;
+}
 
-#list{ 
- font-size:  1.5em; 
- margin-left: 90px; 
-} 
+#list {
+  font-size: 1.5em;
+  margin-left: 90px;
+}
