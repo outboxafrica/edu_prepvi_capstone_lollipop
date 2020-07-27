@@ -10,7 +10,7 @@ input[type=text] , input[type=password] {
 }
 
 input[type=text]: focus , input[type=password]:focus {
-    background-color: #dddddd
+    background-color: #dddddd;
     outline: none;
 }
 
