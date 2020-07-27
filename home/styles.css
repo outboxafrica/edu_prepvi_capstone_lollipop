@@ -37,9 +37,11 @@ p a {
 .content h3 {
   text-align: center;
 }
-.columns img{
+
+.columns img {
   width: 100%;
 }
+
 .site-head p {
   float: right;
   margin-right: 50px;
@@ -48,7 +50,7 @@ p a {
 
 .site-head h2 {
   text-align: center;
-margin-left: 115px;
+  margin-left: 115px;
   color: white;
 }
 
@@ -206,16 +208,11 @@ margin-left: 115px;
 }
 
 
-
-
-
 .specials {
   text-align: center;
   margin-top: 60px;
 
 }
-
-
 
 .footer {
   text-align: center;
@@ -223,13 +220,10 @@ margin-left: 115px;
 }
 
 
-
 .rows {
   display: -ms-flexbox;
-  /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap;
-  /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
 }
@@ -237,7 +231,6 @@ margin-left: 115px;
 /* Create four equal columns that sits next to each other */
 .columns {
   -ms-flex: 25%;
-  /* IE10 */
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
