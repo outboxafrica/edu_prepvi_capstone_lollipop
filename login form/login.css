@@ -54,7 +54,7 @@ button:hover{
     padding: 10px 18px;
     background-color: rgb(95, 92, 92);
     border-radius: 5px;
-    color: black;
+    color: white;
     cursor: pointer;
     text-align: left;
     /*float: left;*/
@@ -147,3 +147,14 @@ span.pwd{
         display: none;
       }
 }
+
+.login a{
+    color: white;
+    text-decoration: none;
+}
+
+.pwd a{
+    color: white;
+    text-decoration: none;
+}
+

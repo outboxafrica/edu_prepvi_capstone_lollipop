@@ -64,3 +64,22 @@ button:hover{
         width: 100%;
     }
 }
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+p a{
+    color: white;
+    text-decoration: none;
+}
+
+.container h1{
+    text-align: center;
+
+}
+
+.container p{
+    text-align: center;
+}

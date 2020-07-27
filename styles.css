@@ -27,3 +27,8 @@ img {
         width: 30%;
     }
 }
+
+button a{
+    color: white;
+    text-decoration: none;
+}
