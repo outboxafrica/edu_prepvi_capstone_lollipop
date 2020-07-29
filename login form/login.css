@@ -101,6 +101,13 @@ span.pwd{
             width: 20px;
             border-radius: 5px;
         }
+
+        .login{
+         padding-right: 55px;
+            
+            
+        
+        }
 }
 
 .navbar a{
