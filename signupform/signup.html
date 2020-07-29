@@ -17,16 +17,16 @@
        
 
         <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
+        <input id="emails" type="text" placeholder="Enter Email" name="email" required>
 
         <label for="username"><b>Username</b></label>
-        <input type="text" placeholder="Username" name="username" required>
+        <input id="nm" type="text" placeholder="Username" name="username" required>
 
         <label for="pwd"> <b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="pwd" required>
+        <input id="pw" type="password" placeholder="Enter Password" name="pwd" required>
 
         <label for="pwd-repeat"> <b>Repeat Password</b></label>
-        <input type="password" placeholder="Repeat Password" name="pwd-repeat" required>
+        <input id="pw2" type="password" placeholder="Repeat Password" name="pwd-repeat" required>
 
         <label> 
             <input type="checkbox" checked="checked" name="remember">Remember me
@@ -35,8 +35,8 @@
         <p>By creating an account you agree to our <a href="#" style="color: rgb(51, 51, 182)174, 174, 201);">Terms & Privacy</a></p>
 
         <div class="fixit">
-            <button type="submit" class="signupbtn"> <a href="../home/home.html">Sign Up</a></button>
-            <button type="button" class="cancelbtn"> Cancel </button>
+            <button type="submit" class="signupbtn" onclick="store()">Sign Up</button>
+            <button type="button" class="cancelbtn"> <a href="../index.html">Cancel</a></button>
 
             <p>Already have an account? <a href="../login form/login.html">Login</a> </p>
 
@@ -46,6 +46,6 @@
     </div>
 
 </div>
-    
+    <script src="./app.js"></script>
 </body>
 </html>
