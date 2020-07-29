@@ -118,12 +118,23 @@ html{
         margin-right: 1px;
       }
 .site-head{
-  width: 95%;
+  width: 99%;
 }
-  .navbar li {
+  .navbar {
         display: none;
       }
+
+
+.navbar li {
+    display: block;
+    /* padding: 20px 30px 20px 30px; */
+    background-color: #3f3f3f;
+    z-index: 1;
+  }
 }
+
+
+  
 p a{
     color: white;
     text-decoration: none;

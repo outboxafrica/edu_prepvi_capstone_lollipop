@@ -101,7 +101,7 @@ p a{
     font-size: 11px
   }
 
-  .navbar li {
+  .navbar {
     display: none;
   }
 
@@ -119,6 +119,16 @@ p a{
     margin-top: 200px;
     width: 100%;
   }
+
+
+
+.navbar li {
+  display: block;
+  /* padding: 20px 30px 20px 30px; */
+  background-color: #3f3f3f;
+  z-index: 1;
+}
+
 
 }
 

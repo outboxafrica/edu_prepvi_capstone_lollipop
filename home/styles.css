@@ -189,7 +189,7 @@ p a {
   }
 
 
-  .navbar li {
+  .navbar {
     display: none;
   }
 
@@ -204,6 +204,14 @@ p a {
   }
 
 
+
+  .navbar li {
+    display: block;
+    /* padding: 20px 30px 20px 30px; */
+    background-color: #3f3f3f;
+    z-index: 1;
+  }
+  
 
 }
 

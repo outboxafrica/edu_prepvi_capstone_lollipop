@@ -39,19 +39,17 @@ function search_menu() {
 // }
 
 
-// breakfast
-// var h = document.querySelector(".breakfast");
-// h.style.display="none";
-
-// document.querySelector(".br").onclick = function(){
+// navbar togol hide and show mobile view
+document.querySelector(".baga").onclick = function(){
 //     // var f = document.querySelector(".breakfast");
-//     if (h.style.display === "none") {
-//               h.style.display = "block";
+var h = document.querySelector(".navbar");
+    if (h.style.display === "none") {
+              h.style.display = "block";
 
-//             } else {
-//               h.style.display = "none";
-//             }
-// };
+            } else {
+              h.style.display = "none";
+            }
+};
 
 // // snacks
 // var s = document.querySelector(".snacks");

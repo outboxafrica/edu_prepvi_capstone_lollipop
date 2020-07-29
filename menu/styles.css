@@ -111,7 +111,7 @@ button:hover {
 
 @media screen and (max-width:650px) {
   .baga {
-    display: inline-block;
+    display: block;
     font-size: 35px;
     position: absolute;
     right: 0;
@@ -146,7 +146,7 @@ button:hover {
     font-size: 11px
   }
 
-  .navbar li {
+  .navbar  {
     display: none;
   }
 
@@ -167,6 +167,14 @@ button:hover {
     margin-right: 100px;
 
   }
+
+
+.navbar li {
+  display: block;
+  /* padding: 20px 30px 20px 30px; */
+  background-color: #3f3f3f;
+  z-index: 1;
+}
 
 }
 
