@@ -9,8 +9,9 @@ function store() {
     localStorage.setItem('pw', pw.value);
     localStorage.setItem('pw2', pw2.value);
     var storedPw = localStorage.getItem('pw');
+    var storedPw2 = localStorage.getItem('pw2');
     
-    if(pw.value == storedPw && pw2.value == storedPw){
+    if( storedPw.value == storedPw2.value){
         alert("signup successful");
         window.location="../home/home.html";
       
