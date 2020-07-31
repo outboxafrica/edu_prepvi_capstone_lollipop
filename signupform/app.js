@@ -22,7 +22,8 @@ if(nm.value=="" || pw.value==""||pw2.value==""||emails.value=="" ){
         window.location="../home/home.html";
         event.preventDefault();
     }else{
-        alert(".error");
+        alert("invalid input");
+        event.preventDefault();
     }
 }
     
