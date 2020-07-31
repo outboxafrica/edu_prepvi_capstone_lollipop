@@ -304,12 +304,6 @@ input[type=text]:focus {
   margin-bottom: 15px;
 }
 
-.shop-item-image {
-  height: 250px;
-  border-radius:15px;
-  border: 1px solid white;
-}
-
 .shop-item-details {
   display: flex;
   align-items: center;
