@@ -17,13 +17,17 @@ function check() {
     // entered data from the login-form
     var userName = document.getElementById('userName');
     var userPw = document.getElementById('userPw');
-
-    // check if stored data from register-form is equal to data from login form
-    if(userName.value == storedName && userPw.value == storedPw) {
+if(userName.value ==""||userPw==""){
+    alert('fill in all fields');
+}else{
+     // check if stored data from register-form is equal to data from login form
+     if(userName.value == storedName && userPw.value == storedPw) {
       
         window.location="../home/home.html";
-        // alert('You are loged in.');
+      
     }else {
         alert('wrong password or username');
     }
+}
+   
 }
