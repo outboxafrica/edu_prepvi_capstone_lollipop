@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sofia;
   background-color: #292929;
   padding: 0px 50px 0px 50px;
   color: white;
@@ -41,7 +41,7 @@ a {
 .container {
   padding: 20px 20px 10px 20px;
   margin-top: 160px;
-  background-image: url(./images/drinks3.jpg);
+  /* background-image: url(./images/drinks3.jpg); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -51,6 +51,7 @@ a {
   background-size: 100% 100%;
   padding: 20px 20px 5px 20px;
   opacity: 0.85;
+  margin-top: 160px;
   
  
 
@@ -72,6 +73,7 @@ a {
 .site-head h2 {
   text-align: center;
   margin-left: 130px;
+  font-size: 23px;
 }
 
 
@@ -112,6 +114,14 @@ button:hover {
 }
 
 @media screen and (max-width:650px) {
+
+
+.content {
+
+  margin-top: 130px;
+
+}
+
   .baga {
     display: block;
     font-size: 35px;
@@ -411,4 +421,20 @@ input[type=text]:focus {
   display: block;
   margin: 40px auto 80px auto;
   font-size: 20px;
+}
+
+
+
+.parallax {
+  /* The image used */
+  background-image: url(./images/drinks3.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

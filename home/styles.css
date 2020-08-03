@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Sofia";
   background-color: #292929;
   padding: 0px 50px 0px 50px;
   color: white;
@@ -52,6 +52,7 @@ p a {
   text-align: center;
   margin-left: 115px;
   color: white;
+  font-size: 23px;
 }
 
 
@@ -59,11 +60,12 @@ p a {
   background-color: #3f3f3f;
   opacity: 0.9;
   padding-bottom: 50px;
+  margin-top: 158px;
 }
 
 .container {
   margin-top: 160px;
-  background-image: url(./images/food6.jpg);
+  /* background-image: url(./images/food6.jpg); */
   
 }
 
@@ -172,6 +174,12 @@ p a {
 /* Responsive columns */
 @media screen and (max-width: 650px) {
 
+
+  .contains {
+   
+    margin-top: 100px;
+  }
+
   .site-head {
     width: 100%;
   }
@@ -267,4 +275,39 @@ p a {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+
+
+.parallax {
+  /* The image used */
+  background-image: url(./images/food6.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.specials a{
+  text-decoration: none;
+  color: white;
+}
+
+.shop-item-button{
+  margin-top: 5px;
+  background-color: #292929;
+  border: #292929;
+  padding: 10px;
+  font-family: sofia;
+  font-size: 15px;
+}
+
+.shop-item-button:hover{
+  background-color: #717171;
+
 }
