@@ -449,12 +449,14 @@
   <script>
     function makePayment() {
       var storedNamee = localStorage.getItem('nm');
-      var storedemail = localStorage.getItem('emails');
+      var storedEmail = localStorage.getItem('emails');
+      var storedTotal = localStorage.getItem('total');
+
 
       FlutterwaveCheckout({
         public_key: "FLWPUBK_TEST-SANDBOXDEMOKEY-X",
         tx_ref: "RX1",
-        amount: 10,
+        amount: storedTotal,
         currency: "USD",
         country: "US",
         payment_options: " ",
@@ -465,7 +467,7 @@
           consumer_mac: "92a3-912ba-1192a",
         },
         customer: {
-          email: storedemail,
+          email: storedEmail,
           phone_number: "08102909304",
           name: storedNamee,
         },
