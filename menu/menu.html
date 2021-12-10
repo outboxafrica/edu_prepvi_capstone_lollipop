@@ -451,7 +451,6 @@
       var storedNamee = localStorage.getItem('nm');
       var storedemail = localStorage.getItem('emails');
 
-      localStorage.setItem('emails', emails.value);
       FlutterwaveCheckout({
         public_key: "FLWPUBK_TEST-SANDBOXDEMOKEY-X",
         tx_ref: "RX1",
@@ -479,7 +478,7 @@
         customizations: {
           title: "Lolifudhub",
           description: "Payment for items in cart",
-          logo: "https://assets.piedpiper.com/logo.png",
+          logo: "../login form/lolichef.jpg",
         },
       });
     }
