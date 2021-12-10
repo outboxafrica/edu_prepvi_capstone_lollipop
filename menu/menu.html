@@ -448,6 +448,10 @@
 
   <script>
     function makePayment() {
+      var storedNamee = localStorage.getItem('nm');
+      var storedemail = localStorage.getItem('emails');
+
+      localStorage.setItem('emails', emails.value);
       FlutterwaveCheckout({
         public_key: "FLWPUBK_TEST-SANDBOXDEMOKEY-X",
         tx_ref: "RX1",
@@ -462,9 +466,9 @@
           consumer_mac: "92a3-912ba-1192a",
         },
         customer: {
-          email: "cornelius@gmail.com",
+          email: storedemail,
           phone_number: "08102909304",
-          name: "Flutterwave Developers",
+          name: storedNamee,
         },
         callback: function (data) {
           console.log(data);
@@ -480,7 +484,7 @@
       });
     }
   </script>
-  
+
 </body>
 
 </html>
